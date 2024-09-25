@@ -35,23 +35,27 @@ Make sure you have the following installed on your machine:
 
 ### Instructions
 
-#### Clone the Repository
+### Clone the Repository
+Clone the repository using the following commands:
 ```bash
 git clone https://github.com/PChunduri1/Blockchain_Ass5.git
+bash
+Copy code
 cd Blockchain_Ass5
-## Install Dependencies
+Install Dependencies
 Navigate to your project directory and install the required npm packages:
 
-```bash
+bash
+Copy code
 npm install
-## Start Ganache
+Start Ganache
 Open Ganache and create a new workspace. Note the HTTP RPC server URL, typically http://127.0.0.1:7545. This will be used to connect your DApp to the local blockchain.
 
 Deploy Your Smart Contract
 Run the following command to deploy your ERC-20 token smart contract:
 
 bash
-
+Copy code
 npx hardhat run scripts/deploy.js --network localhost
 Ensure that the deployment is successful and take note of the contract address printed in the console.
 
@@ -78,4 +82,4 @@ Then open your browser and navigate to http://localhost:8000 (or the appropriate
 Connect to the Wallet
 Click on the "Connect Wallet" button in your DApp.
 Approve the connection request in MetaMask.
-The connected address and token balance should display below the button.
+The connected address and token balance should display below the button..
