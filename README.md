@@ -37,22 +37,21 @@ Make sure you have the following installed on your machine:
 
 #### Clone the Repository
 ```bash
-git clone https://github.com/Roshan003/MyDApp.git
-cd MyDApp
-Install Dependencies
+git clone https://github.com/PChunduri1/Blockchain_Ass5.git
+cd Blockchain_Ass5
+## Install Dependencies
 Navigate to your project directory and install the required npm packages:
 
-bash
-Copy code
+```bash
 npm install
-Start Ganache
+## Start Ganache
 Open Ganache and create a new workspace. Note the HTTP RPC server URL, typically http://127.0.0.1:7545. This will be used to connect your DApp to the local blockchain.
 
 Deploy Your Smart Contract
 Run the following command to deploy your ERC-20 token smart contract:
 
 bash
-Copy code
+
 npx hardhat run scripts/deploy.js --network localhost
 Ensure that the deployment is successful and take note of the contract address printed in the console.
 
