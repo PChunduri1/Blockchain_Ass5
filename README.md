@@ -70,7 +70,7 @@ Open MetaMask and create or import a wallet if you haven’t done so already.
 Click on the network dropdown and select "Custom RPC."
 Enter the Ganache HTTP RPC URL (usually http://127.0.0.1:7545) and set the Chain ID to 1337 (or the Chain ID shown in Ganache).
 Add an account using one of the private keys from Ganache to fund your wallet with test Ether.
-Run the DApp
+### Run the DApp
 Open the index.html file in your web browser. Alternatively, you can use a local server tool like http-server to serve the DApp:
 
 ```bash
