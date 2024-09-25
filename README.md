@@ -12,7 +12,7 @@ MetaMask
 Web3.js library
 # Installation
 Clone the repository:
-git clone https://github.com/your-username/project-repo.git
+git clone https://github.com/PChunduri1/Blockchain_Ass5.git
 cd project-repo
 # Install dependencies:
 
