@@ -81,4 +81,4 @@ Then open your browser and navigate to http://localhost:8000 (or the appropriate
 ### Connect to the Wallet
 Click on the "Connect Wallet" button in your DApp.
 Approve the connection request in MetaMask.
-The connected address and token balance should display below the button..
+The connected address and token balance should be displayed below the button..
